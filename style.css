@@ -1,0 +1,214 @@
+body{
+    font-family: 'Montserrat','sans-serif';
+}
+
+header{
+    background-color: rgb(84, 73, 71 );
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.imagen-logo{
+    width: 100px;;
+}
+
+header .panel{
+    height:160px;
+    display: inline-block;
+    margin:0;
+    border: 0;
+    padding: 2% 100%;
+}
+
+nav li{
+    display: inline-block;
+    margin:0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: Orange;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+main{
+    width: 100%;
+    background: #E8E8E8;
+    padding: 20px 0;
+}
+
+.principal{
+    background: #E8E8E8;
+    width: 69.5%;
+    display: inline-block;
+    padding: 2% 0;
+    vertical-align: top;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 10px auto 50px auto;
+    border: 0px;
+
+}
+
+.formulario{
+    text-align: center;
+    color: grey;
+    font-size: 1em;
+}
+
+form .input-texto{
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 25px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+}
+
+.texto-advertencia{
+    color: black;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin: 22% auto 1% auto;
+}
+
+.simbolo-advertencia{
+    color: #000000;
+    font-weight: bold;
+}
+
+.boton{
+    margin: 10 auto;
+    border-radius: 10px;
+}
+
+#boton-encriptar{
+    background-color: #872DBF;
+    color: #FAFBFC;
+    padding: 10px 60px;
+    margin: 10 25;
+    font-size: smaller;
+}
+
+#boton-desencriptar{
+    background-color: #08041B;
+    color: #FAFBFC;
+    padding: 10px 60px;
+    margin: 10 25px;
+    font-size: smaller;
+}
+
+.mostrario{
+    width: 30%;
+    background:#E8E8E8;
+    display: inline-block;
+    padding: 1% 0 5%;
+}
+
+.areaTexto{
+    width: 81%;
+    height: 55%;
+    position: relative;
+    /*background: red;*/
+  }
+
+  .areaTexto{
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  .text-area-mostrario{
+    display: block;
+    margin: 0 auto;
+    padding: 10% 10% 10% 10%;
+    height: 100%;
+    box-shadow: 1px 1px 2px 1px #000000;
+    border-radius: 10px;
+    position: relative;
+}
+
+  .miDIV{
+    width: 81%;
+    height: 53%;
+    position: absolute;
+    top: 0px;
+    right: auto;
+    left: auto;
+    /*background: url(imagenes/Muñeco.png);*/
+    padding: 40px;
+  }
+
+  .imagen-muñeco{
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  .mensaje{
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: bold;
+    padding: 0% 25%;
+  }
+
+  .mensaje2{
+    text-align: center;
+    font-size: 0.5em;
+    padding: 5% 15%;
+  }
+
+#boton-mostrario{
+    display: block;
+    /*margin: 10 auto;*/
+}
+
+#boton-mostrario{
+    background-color: #5E696E;
+    color: #FAFBFC;
+    padding: 10px 60px;
+    font-size: smaller;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    padding: 20px 0;
+}
+
+footer, .imagen-logo{
+    text-align: center;
+    padding:80px, auto;
+}
+
+.footer, .copy-right{
+    margin:40px, auto;
+}
+
+
+
+
+
+
+
+
